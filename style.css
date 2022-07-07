@@ -36,6 +36,10 @@ section {
     width: 100%;
 }
 
+h1 {
+    margin: 0;
+}
+
 #banner {
     height: 489px;
     padding-top: 180px;
@@ -43,6 +47,12 @@ section {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+}
+
+#banner-gradient {
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(rgba(255, 255, 255, 0), rgb(0, 0, 0)95%);
 }
 
 #banner-slogan {
@@ -57,29 +67,28 @@ section {
     color: #fff;
     width: 700px;
     height: auto;
+    margin-bottom: 30px;
 }
 
 #dono-amount {
-
-    padding-top: 130px;
-
+    margin-top: 130px;
 }
 
 h2 {
     margin: 0px;
 }
 
-#dono-header {
+.dono-header {
     font-size: 45px;
 }
 
-#dono-text {
+.dono-text {
     font-size: 18px;
 }
 
 #options-container {
-    width: 765px;
-    height: 123px;
+    width: auto;
+    height: max-content;
     display: flex;
     justify-content: center;
     margin-top: 50px;
@@ -120,4 +129,52 @@ h2 {
     border: 0;
     border-bottom: 1px solid rgb(255, 123, 0);
     font-size: 18px;
+}
+
+#dono-plan {
+    margin-top: 135px;
+}
+
+.dono-detail {
+    width: 315px;
+    height: 289px;
+    margin: 0px 12px 0 12px;
+    padding: 63.5px 22px 0 23px;
+    border-radius: 6px;
+}
+
+h3 {
+    margin: 0;
+}
+
+.dono-plan-head {
+    font-size: 24px;
+    padding-top: 28px;
+}
+
+.dono-plan-text {
+    font-size: 16px;
+    padding-top: 12px;
+    line-height: 22px;
+}
+
+
+.lefty-element {
+    margin: 0;
+}
+
+.lefty-text {
+    text-align: start;
+}
+
+.back-color-one {
+    background-color: #4f9da60a;
+}
+
+.back-color-two {
+    background-color: #ff59590a;
+}
+
+.back-color-three {
+    background-color: #FFF4D60a;
 }
