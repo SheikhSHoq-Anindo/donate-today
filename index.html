@@ -8,7 +8,9 @@
     <link rel="stylesheet" type="text/css" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@700&family=DM+Sans&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Barlow:wght@700&family=DM+Sans&family=Lobster&family=Roboto:wght@500&display=swap"
+        rel="stylesheet">
     <title>Donate Today!</title>
 </head>
 
@@ -32,7 +34,7 @@
                         is the perfect
                         time</em>
                     to get yourself included in the contribution list!</p>
-        <div class="center-element" id="options-container">
+        <div class="center-element options-container">
             <div class="inline-display amount-option center-text">100BDT</div>
             <div class="inline-display selected-amount-option center-text">200BDT</div>
             <div class="inline-display amount-option center-text">500BDT</div>
@@ -40,16 +42,16 @@
             <div class="inline-display amount-option center-text">5000BDT</div>
         </div>
         <form action="" method="get" class="other-dono center-element">
-            <input type="text" pattern="[0-9.]" title="Amount of money to be donated" class="test center-text"
+            <input type="text" pattern="[0-9.]" title="Amount of money to be donated" class="money-input center-text"
                 placeholder="Type your amount here (BDT)">
         </form>
         <div class="custom-button center-element center-text">Donate Now</div>
     </section>
     <section id="dono-plan">
-        <h2 class="dono-header center-element center-text"> What is this donation doing?</h2>
+        <h2 class="dono-header center-element center-text">What is this donation doing?</h2>
         <p class="dono-text center-element center-text">Wondering where are your donation are getting spent
             on? Check down below for more details</p>
-        <div class="center-element" id="options-container">
+        <div class="center-element options-container">
             <div class="inline-display dono-detail back-color-one">
                 <img src="icons/food.png">
                 <h3 class="dono-plan-head lefty-element lefty-text">Food for a family</h3>
@@ -70,12 +72,25 @@
                     somewhat of
                     a proper schooling curriculum</p>
             </div>
-
         </div>
-
     </section>
-
-
+    <section id="dono-update">
+        <h2 class="dono-header center-element center-text">Get My Updates</h2>
+        <p class="dono-text center-element center-text">Subscribe to our newsletter with your email down below to get
+            our daily updates and reports about our operations and more!</p>
+        <div class="center-element options-container dim-adjust-dono-update">
+            <form action="" method="get" class="email-input-field center-content-vert">
+                <input type="email" title="email" class="email-input lefty-text" placeholder="Email">
+            </form>
+            <div class="sub-button center-text center-content-vert">
+                Subscribe
+            </div>
+        </div>
+    </section>
 </body>
+<footer>
+    <p id="footer-notes" class="center-element">Be Humble</p>
+    <p id="footer-text" class="center-element">I am defenitely gonna do it!</p>
+</footer>
 
 </html>
